@@ -1,0 +1,35 @@
+Comandos para ser usado no git 
+
+ls (lista arquivos)
+mkdir (cria diretorio)
+touch (cria arquivos)
+clear (Limpa a tela)
+
+
+git init (Para criar pasta que seram usadas para projetos pode lista com o comando ls -a)
+git status (para ver as modificações na pasta)
+git add * (Para armazenar arquivos no git)
+git commit -m "comentario" (Para indentificar as modificaçoes dos arquivos)
+git commit -ma "comentario" (Para indentificar as modificações dos arquivos e armazena no contener)
+git log (Para mostrar as modificações)
+git log --oneline (Para mostrar de forma resumida as modificações)
+git log --graph (Para mostrar os grafos de commit)
+git log --graph --all (Para mostrar tambem ramificações do codigo)
+git branch (Mostra onde o projeto se encontra)
+git checkout "Nº do commit" (Para mudar de versão pelo número do commit)
+git checkout master (Para retorna para ultima versão)
+git checkout "nome do arquivo" (Para remover as alterações do arquivo selecionado)
+git diff (Para mostrar a diferencia do arquivo atual e o anterior)
+git reset HEAD (Remove o conteudo do contener que ainda não foi feito o commit)
+git reset --hard "Nº do commit" (Para remover commit e volta para versoes anteriores)
+
+git checkout -b "Nome da ramificação" (Para criar ramificação do projeto em andamento)
+git merge "nome da ramificação" (Para juntar a ramificação com o master) 
+git marge --abort (Para parar o proceso de fusão da ramificação com o maste)
+
+Para que os comando abaixo você devera criar repositorios no GITHUB e rodar os comando no terminal pera usar o repositorio no GITHUB
+git remote (Para verificar se tem algum diretorio remoto no GITHUB)
+git remote -v (Para ver mais informações do diretorio remoto no GITHUB)
+
+
+
