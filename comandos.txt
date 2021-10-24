@@ -30,6 +30,6 @@ git marge --abort (Para parar o proceso de fusão da ramificação com o maste)
 Para que os comando abaixo você devera criar repositorios no GITHUB e rodar os comando no terminal pera usar o repositorio no GITHUB
 git remote (Para verificar se tem algum diretorio remoto no GITHUB)
 git remote -v (Para ver mais informações do diretorio remoto no GITHUB)
-
+git clone "Link do projeto" (Para baixa projetos do GITHUB)
 
 
