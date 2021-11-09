@@ -5,7 +5,9 @@ mkdir (cria diretorio)
 touch (cria arquivos)
 clear (Limpa a tela)
 
-
+git config --global core.editor "caminho do editor" (Para colocar o editor que vai ser usado como padrão pelo git)
+git config --global user.name "usúario" (Colocar nome de usúario)
+git config --global user.email "email" (Colocar o seu e-mail)
 git init (Para criar pasta que seram usadas para projetos pode lista com o comando ls -a)
 git status (para ver as modificações na pasta)
 git add * (Para armazenar arquivos no git)
@@ -31,5 +33,10 @@ Para que os comando abaixo você devera criar repositorios no GITHUB e rodar os 
 git remote (Para verificar se tem algum diretorio remoto no GITHUB)
 git remote -v (Para ver mais informações do diretorio remoto no GITHUB)
 git clone "Link do projeto" (Para baixa projetos do GITHUB)
+git push (Para enviar alterações no codigo para o projeto no GITHUB)
+git pull (Para sicronizar com o GITHUB)
+git fetch (Para baixar o repositorio para poder verificar as alterações)
 
-
+Para instalar no linux
+sudo apt-get update
+sudo apt-get install git
